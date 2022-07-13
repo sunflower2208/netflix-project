@@ -61,7 +61,7 @@ Before the Netflix datasets were merged with the IMDB one they were checked for 
 After it was fixed a merge with IMDB data was performed on the content title and year of release to limit creation of multiple values being connected to the content with the same ID. Still, duplicates were found and were further removed with certain conditions, i.e. director's names from both IMDB and Netflix datasets should match for the row not to be removed, etc. 
 The datasets were saved to pickle files after successful merging and removal of incorrect rows for use in the EDA and data visualization.
 
-#### EDA, data vis
+#### EDA, data visualization
 As stated previously, the Netflix datasets are similar to one another, so the same attributes were investigated in each one. Including the IMDB dataset, for the data analysis following columns were available:
 * show_id
 * type - movie or tv show
