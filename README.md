@@ -30,7 +30,6 @@ Datasets used for the realization of this project were collected from various so
 * Scikit-learn
 * Surprise
 * NLTK
-* Json
 * Seaborn
 * Matplotlib
 
